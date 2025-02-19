@@ -15,7 +15,7 @@ public class Circle {
 	}
 	
 	public double calculateArea() {
-		return squarePI() * radius;
+		return Circle.PI * Math.pow(radius,2.0d);
 	}
 
 	private static double squarePI() {
